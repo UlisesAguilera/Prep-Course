@@ -234,7 +234,7 @@ function esVocal(letra){
       return "Es vocal";
     }  else if (letra.length > 1) {
       return "Dato incorrecto";
-    }  else if (letra != "a"||letra ==="e"||letra ==="i"||letra ==="o"||letra ==="u") {
+    }  else if (letra !== "a"||"e"||"i"||"o"||"u") {
       return "Dato incorrecto";
     }
 }
